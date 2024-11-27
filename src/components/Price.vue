@@ -6,22 +6,19 @@
         data-aos="fade-down"
         data-aos-duration="500"
       >
-        <img src="../assets/p-1.png" alt="" class="w-[280px] md:w-[400px] object-contain" data-aos="fade-down" data-aos-duration="700" />
+        <img src="../assets/p-1.png" alt="" class="w-[270px] md:w-[400px] object-contain" data-aos="fade-down" data-aos-duration="700" />
         <div class="w-full h-full flex md:justify-center flex-col" data-aos="fade-down" data-aos-duration="800">
           <div class="text-xl md:text-7xl font-bold">PRICE</div>
           <div class="comic-neue-bold">
             Draw: <br />
-            1. CLOSE-UP<br />
-            2. HALFBODY<br />
-            3. FULLBODY<br />
+            1. CLOSE-UP 20$<br />
+            2. HALFBODY 40$<br />
+            3. FULLBODY 60$<br />
             *No background but simple background no problem
           </div>
-          <br />
-          <div class="text-xl md:text-4xl line-through comic-neue-bold">COMERCIAL USE X2 PRICE</div>
-          <br />
-          <div class="text-xl md:text-4xl text-blue-800 comic-neue-bold">COMERCIAL for NOW X1 PRICE</div>
-          <br />
-          <div class="text-xl md:text-3xl text-blue-800 comic-neue-bold">
+          <div class="text-md md:text-4xl line-through comic-neue-bold">COMERCIAL USE X2 PRICE</div>
+          <div class="text-md md:text-4xl text-blue-800 comic-neue-bold">COMERCIAL for NOW X1 PRICE</div>
+          <div class="text-md md:text-3xl text-blue-800 comic-neue-bold">
             Payment by: <br />
             - Paypal <br />
             - For local (indonesia) use BCA. 1$ = 12K
