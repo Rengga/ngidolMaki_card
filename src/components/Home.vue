@@ -23,6 +23,7 @@
           data-aos-anchor-placement="bottom-bottom"
         />
         <img src="../assets/h-1.webp" class="w-[300px] h-[500px] object-cover img-3 border-2 border-slate-200" data-aos="fade-left" />
+        <img src="../assets/thumb.jpg" class="hidden opacity-0" data-aos="fade-left" />
       </div>
     </div>
   </div>
