@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2a2b2b;
+}
+.comic-neue-light {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-light-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.comic-neue-bold-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  background-color: #f0f2f3;
+  background-image: linear-gradient(#d0d0d0 1.4000000000000001px, transparent 1.4000000000000001px),
+    linear-gradient(to right, #d0d0d0 1.4000000000000001px, #f0f2f3 1.4000000000000001px);
+  background-size: 28px 28px;
+}
+
+.cus-scroll::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+.cus-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+.cus-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Handle on hover */
+.cus-scroll::-webkit-scrollbar-thumb:hover {
+  background: transparent;
+}
+
+.row-c {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  padding-top: 130px;
+  padding-bottom: 20px;
+}
+.column-c {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-c img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column-c {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column-c {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
