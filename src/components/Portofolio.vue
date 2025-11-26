@@ -18,7 +18,7 @@ const toggleClass = () => {
 };
 
 // Buat daftar index gambar
-const imageIndices = Array.from({ length: 19 }, (_, i) => i + 1);
+const imageIndices = Array.from({ length: 26 }, (_, i) => i + 1);
 const mid = Math.ceil(imageIndices.length / 2);
 const columns = [imageIndices.slice(0, mid), imageIndices.slice(mid)];
 
